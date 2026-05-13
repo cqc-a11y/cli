@@ -1,0 +1,160 @@
+cmd/auth/login.go
+  279255b73fdd8841 33,66,71-72,162,193-196,211,215-239,571-625 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a01c44f13075a5dd2de84f1","tool_type":"agent","tool_id":"SearchReplace","line_ranges":[{"Single":33},{"Single":66},{"Range":[71,72]},{"Single":162},{"Range":[193,196]},{"Single":211},{"Range":[215,239]},{"Range":[571,625]}]}]}
+cmd/auth/login_test.go
+  279255b73fdd8841 12,963-1195 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a01c44f13075a5dd2de84f1","tool_type":"agent","tool_id":"SearchReplace","line_ranges":[{"Single":12},{"Range":[963,1195]}]}]}
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.4",
+  "base_commit_sha": "5e0ac02f08a20cc6b914afeda3b3e368abf0e35f",
+  "prompts": {
+    "279255b73fdd8841": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "69ccee347a67fefc4240525d",
+        "model": "openrouter-2o__dev"
+      },
+      "human_author": "cqc-a11y <chengqingchun@bytedance.com>",
+      "messages": [],
+      "total_additions": 362,
+      "total_deletions": 47,
+      "accepted_lines": 324,
+      "overriden_lines": 0
+    }
+  },
+  "attestation_metadata": {
+    "cmd/auth/login.go": [
+      {
+        "hash": "279255b73fdd8841",
+        "line_ranges": [
+          {
+            "Single": 33
+          },
+          {
+            "Single": 66
+          },
+          {
+            "Range": [
+              71,
+              72
+            ]
+          },
+          {
+            "Single": 162
+          },
+          {
+            "Range": [
+              193,
+              196
+            ]
+          },
+          {
+            "Single": 211
+          },
+          {
+            "Range": [
+              215,
+              239
+            ]
+          },
+          {
+            "Range": [
+              571,
+              625
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a01c44f13075a5dd2de84f1",
+            "tool_type": "agent",
+            "tool_id": "SearchReplace",
+            "line_ranges": [
+              {
+                "Single": 33
+              },
+              {
+                "Single": 66
+              },
+              {
+                "Range": [
+                  71,
+                  72
+                ]
+              },
+              {
+                "Single": 162
+              },
+              {
+                "Range": [
+                  193,
+                  196
+                ]
+              },
+              {
+                "Single": 211
+              },
+              {
+                "Range": [
+                  215,
+                  239
+                ]
+              },
+              {
+                "Range": [
+                  571,
+                  625
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cmd/auth/login_test.go": [
+      {
+        "hash": "279255b73fdd8841",
+        "line_ranges": [
+          {
+            "Single": 12
+          },
+          {
+            "Range": [
+              963,
+              1195
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a01c44f13075a5dd2de84f1",
+            "tool_type": "agent",
+            "tool_id": "SearchReplace",
+            "line_ranges": [
+              {
+                "Single": 12
+              },
+              {
+                "Range": [
+                  963,
+                  1195
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "remote_transcripts": {
+    "279255b73fdd8841": {
+      "tool": "trae",
+      "conversation_id": "69ccee347a67fefc4240525d",
+      "session_id": "69ccee347a67fefc4240525d",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    }
+  }
+}
